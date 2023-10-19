@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+#container-nav {
+    /* background: #333; */
+    height: 4rem;
+    width: 100%;
+  }
+  nav {
+    /* background: #333; */
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .link-item {
+    color: white;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+#container-nav, footer, .hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+#container-section, .hero{
+    display: flex;
+    flex: 1 1 100%;
+}
