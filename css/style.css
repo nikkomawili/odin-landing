@@ -32,3 +32,10 @@
     display: flex;
     flex: 1 1 100%;
 }
+
+footer {
+    flex: 1 1 100%;
+}
+.hero {
+    justify-content: center;
+}
